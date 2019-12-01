@@ -14,7 +14,7 @@ RUN \
   apt-get -y upgrade && \
   apt-get install -y build-essential && \
   apt-get install -y software-properties-common && \
-  apt-get install -y byobu curl git htop man unzip vim wget && \
+  apt-get install -y byobu curl git htop man unzip vim wget nano dnsutils && \
   rm -rf /var/lib/apt/lists/*
 
 # Add files.
