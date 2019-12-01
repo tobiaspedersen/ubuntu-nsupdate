@@ -24,6 +24,9 @@ ADD root/.bashrc /root/.bashrc
 ADD root/.gitconfig /root/.gitconfig
 ADD root/.scripts /root/.scripts
 
+# Define working directory.
+WORKDIR /
+
 # Set environment variables.
 ENV HOME /root
 
@@ -45,9 +48,5 @@ ENV HOST7 ""
 ENV HOST8 ""
 ENV HOST9 ""
 ENV HOST10 ""
-
-
-# Define working directory.
-WORKDIR /
 
 ENTRYPOINT ["./ddns.sh"]
