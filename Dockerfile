@@ -27,8 +27,27 @@ ADD root/.scripts /root/.scripts
 # Set environment variables.
 ENV HOME /root
 
-# Define working directory.
-WORKDIR /root
+ENV ZONE ""
 
-# Define default command.
-CMD ["bash"]
+ENV SERVER ""
+
+ENV KEY ""
+
+ENV NUMHOST ""
+
+ENV HOST1 ""
+ENV HOST2 ""
+ENV HOST3 ""
+ENV HOST4 ""
+ENV HOST5 ""
+ENV HOST6 ""
+ENV HOST7 ""
+ENV HOST8 ""
+ENV HOST9 ""
+ENV HOST10 ""
+
+
+# Define working directory.
+WORKDIR /
+
+ENTRYPOINT ["./ddns.sh"]
