@@ -28,8 +28,6 @@ ADD root/.scripts /root/.scripts
 WORKDIR /
 
 # Set environment variables.
-ENV HOME /root
-
 ENV ZONE ""
 
 ENV SERVER ""
