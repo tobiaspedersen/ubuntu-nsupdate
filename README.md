@@ -1,23 +1,20 @@
-## Ubuntu Dockerfile
-
-
-This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/ubuntu/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
-
-
-### Base Docker Image
-
-* [ubuntu:14.04](https://registry.hub.docker.com/u/library/ubuntu/)
-
+## Ubuntu based ddns updater
 
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/ubuntu/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/ubuntu`
+2. Add ``` tobiaspedersen/ddns-updater ``` in Repository.
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/ubuntu" github.com/dockerfile/ubuntu`)
+3. Add the variables you want from the list below.
 
 
 ### Usage
 
-    docker run -it --rm dockerfile/ubuntu
+```
+SERVER: Your providers namesever.
+KEY: "Code" to update dns entries.
+NUMHOST: Hor many domains dou you want to update?
+HOST1 - HOST10: domains/subdomains to update/monitor
+
+```
