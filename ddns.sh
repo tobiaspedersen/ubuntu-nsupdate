@@ -11,7 +11,7 @@ do
         do
                 FILE="HOST""$a"
                 CACHE="$CACHELOCATION""${!FILE}"
-                echo "generating cache files for: "$CACHE""
+                echo "checking for ip change for domain: "${!FILE}""
                 touch "$CACHE"
                 echo "done"
                 
