@@ -24,6 +24,6 @@ do
 
                 a=$((a+1))
         done
-sleep 5
+sleep 10
 a="1"
 done
