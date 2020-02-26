@@ -15,6 +15,6 @@
 SERVER: Your providers namesever.
 KEY: "Code" to update dns entries.
 NUMHOST: Hor many domains dou you want to update?
-HOST1 - HOST10: domains/subdomains to update/monitor
+HOST1 - HOST20: domains/subdomains to update/monitor
 
 ```
