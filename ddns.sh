@@ -2,7 +2,7 @@
 
 a="1"
 
-CACHELOCATION="/cache/"
+CACHELOCATION="/data/"
 mkdir -p "$CACHELOCATION"
 
 while [ true ]
